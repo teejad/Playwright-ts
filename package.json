@@ -1,0 +1,20 @@
+{
+  "name": "BrownBagSession",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "run": "playwright test --headed",
+    "debug": "playwright test --debug",
+    "report": "playwright test --reporter=dot",
+    "test:chromium": "playwright test --project=chromium",
+    "run:chromium": "playwright test --headed --project=chromium"
+  },
+  "keywords": [],
+  "author": "Tiana",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.32.1"
+  }
+}
